@@ -10,7 +10,7 @@ const server = http.Server(app);
 
 setupWebsocket(server);
 //Should place a mongoDB connection string here
-mongoose.connect('mongodb+srv://renato30:renato@cluster0-igqkt.mongodb.net/week10?retryWrites=true&w=majority',{
+mongoose.connect('SEU LINK AQUI',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
